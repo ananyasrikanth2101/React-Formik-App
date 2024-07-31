@@ -1,0 +1,71 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #343a40;
+  padding-bottom: 15px;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-brand {
+  cursor: default;
+}
+.nav-link:hover {
+  color: #f53e63 !important;
+}
+.container {
+  margin-top: 30px;
+}
+
+@media (max-width: 850px) {
+  #title {
+    font-size: medium;
+  }
+  body {
+    padding: 0;
+  }
+}
+.dashboard-cards {
+  font-family: monospace;
+}
+.card {
+  border: 1px solid #ced4da;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 2px 2px rgba(66, 123, 245, 0.6);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.img-fluid {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.auth-img {
+  width: auto;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card-text {
+  color: #6c757d;
+}
