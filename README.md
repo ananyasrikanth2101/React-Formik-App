@@ -4,6 +4,7 @@ This project is an admin dashboard for managing book and author details in a lib
 It includes functionalities for adding, editing, and deleting records, with form validations handled by Formik and styling by Bootstrap.
 
 ## Features
+
 **Book Management:** Add, edit, and delete book records (title, author, ISBN, publication date).
 **Author Management:** Add, edit, and delete author records (name, birth date, biography).
 **Form Validation:** All forms use Formik for validation.
@@ -11,12 +12,10 @@ It includes functionalities for adding, editing, and deleting records, with form
 
 # Technologies Used
 
-React
-Formik
-Yup
-Axios
-Bootstrap
-React Router
+1. React
+2. Formik
+3. Bootstrap
+4. React Router
 
 ## Setup
 
